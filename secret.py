@@ -4,7 +4,7 @@ import string
 import json
 import os
 
-TOKEN = '7619933017:AAGGwxM6DC6a2Y0m7t-hRBIzgtXhn1lRUZM'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 DATA_FILE = 'gizli_mesajlar.json'
