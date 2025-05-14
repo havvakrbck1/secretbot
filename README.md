@@ -1,25 +1,22 @@
-
----
-
-## 2️⃣ `secretbot
-
 ```markdown
-# 🕵️‍♀️ secretbot
+# Secret Message Bot
 
-Kullanıcılar arasında şifreli ve gizli mesajlaşma sağlayan basit bir Telegram botudur.
+A Telegram bot that allows users to send and receive encrypted secret messages.
 
-## 🔒 Özellikler
-- Mesajları şifreleyerek gönderir.
-- Şifrelenen metin sadece belirlenen anahtar ile çözülebilir.
+## Features
+- End-to-end encrypted messaging
+- Self-destructing messages
+- User authentication
 
-## 🚀 Kullanılan Teknolojiler
-- Python
-- pyTelegramBotAPI
+## Technologies Used
+- Python 3
+- Telegram Bot API
+- cryptography library
 
-## ⚙️ Kurulum
+## Installation
 
 ```bash
-git clone https://github.com/havvakrbck1/secretbot.git
-cd secretbot
+git clone https://github.com/havvakrbck1/secret-message-bot.git
+cd secret-message-bot
 pip install -r requirements.txt
 python bot.py
